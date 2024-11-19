@@ -20,7 +20,7 @@ int main()
     }
     
     printf("'[");
-    printf("%d ,",vetor[0]);
+    printf("%d,",vetor[0]);
     for(int i = 1 ; i < tamanho ; i++){
         printf(" %d", vetor[i]);
         if( i < tamanho - 1){
