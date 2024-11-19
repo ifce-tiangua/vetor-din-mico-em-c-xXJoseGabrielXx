@@ -17,7 +17,7 @@ int main()
     if(vetor == NULL) {
         printf("vazio");
         return 1;
-    }
+    }else{
     
     printf("[");
     printf("%d,",vetor[0]);
@@ -30,6 +30,6 @@ int main()
     printf("]");
     
     free(vetor);
-
+    }
     return 0;
 }
