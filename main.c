@@ -7,9 +7,14 @@ int main() {
 
     scanf("%d", &tamanho);
 
+    if (tamanho == 0) {
+        printf("[vazio]");
+        return 0;
+    }
+
     vetor = malloc(tamanho * sizeof(int));
     if (vetor == NULL) {
-        printf("vazio");
+        printf("Erro: memória insuficiente.\n");
         return 1;
     }
 
@@ -27,4 +32,3 @@ int main() {
     free(vetor);
     return 0;
 }
-
