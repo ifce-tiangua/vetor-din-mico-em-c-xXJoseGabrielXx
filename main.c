@@ -19,7 +19,7 @@ int main()
         return 1;
     }
     
-    printf("'[");
+    printf("[");
     printf("%d,",vetor[0]);
     for(int i = 1 ; i < tamanho ; i++){
         printf(" %d", vetor[i]);
@@ -27,7 +27,7 @@ int main()
             printf(",");
         }
     }
-    printf("]'");
+    printf("]");
     
     free(vetor);
 
